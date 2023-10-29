@@ -40,9 +40,6 @@ public class MainVerticle extends AbstractVerticle {
       if (reply.succeeded()) {
         routingContext.response().setStatusCode(200).end(reply.result().body().toString());
       } else {
-
-        System.out.println(reply.cause());
-        System.out.println("IUFHUIASHUIOHASUIOHASDUIOHASDUIOHASDUIOUIOASDUIOHASDUIOHASD");
         routingContext.response().setStatusCode(500).end("User not created");
       }
     });
