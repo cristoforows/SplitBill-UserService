@@ -1,4 +1,4 @@
-= Starter
+= UserService
 
 image:https://img.shields.io/badge/vert.x-4.4.6-purple.svg[link="https://vertx.io"]
 
